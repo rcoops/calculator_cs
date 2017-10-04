@@ -23,6 +23,8 @@ namespace FuckingCalculator
         public MainWindow()
         {
             InitializeComponent();
+            ViewModel vm = new ViewModel();
+            DataContext = vm;
         }
     }
 }
